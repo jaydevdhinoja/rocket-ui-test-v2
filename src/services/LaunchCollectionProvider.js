@@ -1,8 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { LaunchService, RocketService } from './SPACEXService';
 
-//import queryString from 'query-string';
-
 const defaultState = {
 	launchCollection: [],
 	loading: true,
@@ -59,7 +57,6 @@ const LaunchCollectionProvider = ({ children }) => {
 							updatedObj = {...updatedObj, current_flight_number, selectedRocketId}
 						}
 					}
-					console.log('*******************', updatedObj)
 					setInitialState(updatedObj)
 				}
 			}}
