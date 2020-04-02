@@ -1,31 +1,60 @@
 
-In the project directory, you can run:
+* React 16 (includes Hooks should you want to use them)
+* Webpack 4
+* React Router 4
+* SASS
+* Babel Cli
+* Hot Module Reloading
+* React Testing Library 
+* Enzyme 3 for testing (should you have time to implement tests)
 
-### `npm install`
+### Features
 
-Installs all the dependencies
+* Simple src/index.jsx and src/index.css (local module css).
+* Webpack configuration for development (with hot reloading) and production (with minification).
+* Both js(x) and css hot loaded during development.
+* [Webpack Dashboard Plugin](https://github.com/FormidableLabs/webpack-dashboard) on dev server.
 
-### `npm start`
+### To run
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* You'll need to have [git](https://git-scm.com/) and [node](https://nodejs.org/en/) installed in your system.
+* Fork and clone the project:
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+```
+git clone https://github.com/seamusmalone/ui-test-base
+```
 
-### `npm test`
+* Then install the dependencies:
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npm install
+```
 
-### `npm run build`
+* Run development server:
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm start
+```
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+* Or you can run development server with [webpack-dashboard](https://github.com/FormidableLabs/webpack-dashboard):
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm run dev
+```
 
-### `npm run eject`
+Open the web browser to `http://localhost:7357/`
+
+
+### To test
+To run unit tests:
+
+```
+npm test
+```
+
+Tests come bundled with:
+
+* Jest
+* Enzyme
+* React Test Utils
+* React Test Renderer
