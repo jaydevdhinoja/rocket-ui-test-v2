@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Launch Collection Listing renders component 1`] = `
+<div>
+  <ul>
+    <li>
+      <a
+        href="/launches"
+      >
+        Launches
+      </a>
+    </li>
+  </ul>
+</div>
+`;

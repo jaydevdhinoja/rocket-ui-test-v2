@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Launch Collection Listing renders component 1`] = `
+<div>
+  <li>
+    <h2>
+       
+       
+    </h2>
+    <div>
+      <ul>
+        <li>
+          Flight Number: 
+          1
+        </li>
+        <li>
+          Rocket ID: 
+          falcon 1
+        </li>
+        <li>
+          Cost: 
+          6700000
+        </li>
+        <li>
+          Description: 
+          The Falcon 1 was an expendable launch system privately developed and manufactured by SpaceX during 2006-2009. On 28 September 2008, Falcon 1 became the first privately-developed liquid-fuel launch vehicle to go into orbit around the Earth.
+        </li>
+      </ul>
+    </div>
+  </li>
+</div>
+`;
